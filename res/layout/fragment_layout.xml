@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.askari.earthquakeanalysis.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+
+    <Button
+        android:id="@+id/btn_map_of_indonesia"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_map_of_indonesia"
+        android:minHeight="90dp"
+        android:text="@string/map_of_indonesia" />
+     
+    <Button
+        android:id="@+id/btn_magnitude_map"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_magnitude_map"
+        android:text="@string/magnitude_map"
+        android:minHeight="90dp" />
+     
+    <Button
+        android:id="@+id/btn_cluster_map"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_cluster_map"
+        android:text="@string/cluster_map"
+        android:minHeight="90dp" />
+     
+    <Button
+        android:id="@+id/btn_magnitude_chart"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_magnitude_chart"
+        android:text="@string/magnitude_chart"
+        android:minHeight="90dp" />
+ 
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_about"
+        android:text="@string/about"
+        android:minHeight="90dp" />
+ 
+ 	<Button
+        android:id="@+id/btn_help"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_help"
+        android:text="@string/help"
+        android:minHeight="90dp" />
+ 	
+ 	<Button
+        android:id="@+id/btn_exit"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_exit"
+        android:text="@string/exit"
+        android:minHeight="90dp" />
+    
+ 	<Button
+        android:id="@+id/btn_help2"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_help"
+        android:text="@string/help"
+        android:minHeight="90dp" />
+ 
+</com.askari.earthquakeanalysis.DashboardLayout>

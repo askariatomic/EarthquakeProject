@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="#f8f9fe">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    	
+        <TextView
+	    	android:id="@+id/textView3"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="@string/app_name"
+	    	android:textSize="22sp"
+	    	android:textStyle="bold"
+	    	android:paddingTop="50dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+        
+		<TextView
+	    	android:id="@+id/textView1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="Text"
+	    	android:textSize="18sp"
+	    	android:paddingTop="25dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+		
+		<ImageView
+        	android:id="@+id/imageView1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:src="@drawable/logo_pens" />
+		
+		<TextView
+	    	android:id="@+id/textView2"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:text="Text"
+	    	android:textStyle="bold"
+	    	android:gravity="center"
+	    	android:textSize="20sp"
+	    	android:padding="0dp"
+	    	android:textColor="#ff29549f" />
+		
+	</LinearLayout>
+</ScrollView>

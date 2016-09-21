@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"  
+    android:background="#f8f9fe">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+    	
+        <TextView
+	    	android:id="@+id/textView3"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="@string/app_name"
+	    	android:textSize="22sp"
+	    	android:textStyle="bold"
+	    	android:paddingTop="50dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+        
+        <TextView
+	    	android:id="@+id/textView4"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="@string/magnitude_map"
+	    	android:textSize="22sp"
+	    	android:textStyle="bold"
+	    	android:paddingTop="50dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+        
+		<TextView
+	    	android:id="@+id/textView1"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="Text"
+	    	android:textSize="18sp"
+	    	android:paddingTop="25dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+		
+		<ImageView
+        	android:id="@+id/imageView2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help1" />
+		
+		<ImageView
+        	android:id="@+id/imageView3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help2" />
+		
+		<ImageView
+        	android:id="@+id/imageView4"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help3" />
+		
+		<ImageView
+        	android:id="@+id/imageView10"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help4" />
+		
+		<TextView
+	    	android:id="@+id/textView5"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="@string/cluster_map"
+	    	android:textSize="22sp"
+	    	android:textStyle="bold"
+	    	android:paddingTop="50dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+		
+		<TextView
+	    	android:id="@+id/textView6"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="Text"
+	    	android:textSize="18sp"
+	    	android:paddingTop="25dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+		
+		<ImageView
+        	android:id="@+id/imageView5"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:src="@drawable/help5" />
+		
+		<ImageView
+        	android:id="@+id/imageView6"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help6" />
+		
+		<ImageView
+        	android:id="@+id/imageView7"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help7" />
+		
+		<TextView
+	    	android:id="@+id/textView7"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="@string/magnitude_chart"
+	    	android:textSize="22sp"
+	    	android:textStyle="bold"
+	    	android:paddingTop="50dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+		
+		<TextView
+	    	android:id="@+id/textView8"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	   		android:text="Text"
+	    	android:textSize="18sp"
+	    	android:paddingTop="25dp"
+			android:paddingRight="50dp"
+	    	android:paddingBottom="0dp"	    	
+	    	android:paddingLeft="50dp"
+	    	android:textColor="#ff29549f" />
+		
+		<ImageView
+        	android:id="@+id/imageView8"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help8" />
+		
+		<ImageView
+        	android:id="@+id/imageView9"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="15dp"
+        	android:src="@drawable/help9" />
+		
+		<ImageView
+        	android:id="@+id/imageView1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:paddingTop="25dp"
+        	android:src="@drawable/logo_pens" />
+		
+		<TextView
+	    	android:id="@+id/textView2"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:text="Text"
+	    	android:textStyle="bold"
+	    	android:gravity="center"
+	    	android:textSize="20sp"
+	    	android:padding="0dp"
+	    	android:textColor="#ff29549f" />
+		
+	</LinearLayout>
+</ScrollView>

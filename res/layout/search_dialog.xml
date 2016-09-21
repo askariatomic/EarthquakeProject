@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<TextView
+	    android:id="@+id/txtRangeYear"
+	    android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="16dp"
+		android:paddingRight="16dp"
+		android:paddingBottom="8dp"
+		android:paddingLeft="16dp"
+		android:text="Year: 1963 - 2015" 
+		android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+	<LinearLayout
+	    android:id="@+id/seekbar_range_year"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/txtRangeYear"
+	    android:paddingTop="0dp"
+		android:paddingRight="16dp"
+		android:paddingBottom="16dp"
+		android:paddingLeft="16dp"
+	    android:orientation="vertical" />
+	
+	<TextView
+	    android:id="@+id/txtRangeMagnitude"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/seekbar_range_year"
+		android:paddingTop="0dp"
+		android:paddingRight="16dp"
+		android:paddingBottom="8dp"
+		android:paddingLeft="16dp"
+	    android:text="Magnitude: 1 - 10 RS"
+	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<LinearLayout
+	    android:id="@+id/seekbar_range_magnitude"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/txtRangeMagnitude"
+	    android:paddingTop="0dp"
+		android:paddingRight="16dp"
+		android:paddingBottom="16dp"
+		android:paddingLeft="16dp"
+	    android:orientation="vertical" />
+   
+</RelativeLayout>
